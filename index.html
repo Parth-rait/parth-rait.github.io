@@ -1,314 +1,294 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8" />
-  <title>Parth Rait | Economics, ML & Fieldwork</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta
-    name="description"
-    content="Portfolio of Parth Rait – Economics graduate from TISS working at the intersection of data science, rural fieldwork, and research."
-  />
-  <link rel="stylesheet" href="styles.css" />
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <!-- FontAwesome for Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" xintegrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parth Rait | Portfolio</title>
+    
+    <!-- CSS & Fonts -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Inter:wght@300;400;500;600&family=Fira+Code:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <!-- HEADER / NAV -->
-  <header>
-    <div class="container nav">
-      <div class="nav-logo">PARTH&nbsp;RAIT</div>
-      <nav class="nav-links">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#kaggle">Kaggle</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
 
-  <main>
-    <!-- HERO SECTION -->
-    <section class="hero-section">
-      <div class="hero-bg-orbit"></div>
-      <div class="container hero">
-        <div class="hero-text">
-          <p class="hero-kicker">Economics × Machine Learning × Fieldwork</p>
-          <h1>
-            Hi, I’m <span>Parth Rait</span><br />
-            I turn <span>ground realities</span> into <span>data-driven insights</span>.
-          </h1>
-          <p class="hero-subtitle">
-            Economics graduate from TISS, working at the intersection of rural fieldwork, quantitative modelling, and policy research. I bridge the gap between village-level surveys and advanced ML pipelines.
-          </p>
-
-          <div class="hero-tags">
-            <span class="tag-pill">TISS Economics</span>
-            <span class="tag-pill">IITG Data Science</span>
-            <span class="tag-pill">Kaggle Expert</span>
-            <span class="tag-pill">Field Researcher</span>
-          </div>
-
-          <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary">View Projects</a>
-            <a href="assets/docs/CV_Parth_Rait.pdf" target="_blank" class="btn btn-ghost">Download CV</a>
-          </div>
-
-          <div class="hero-meta">
-            <a href="mailto:parthrait2006@gmail.com"><i class="fas fa-envelope"></i> Email</a>
-            <span><i class="fas fa-phone"></i> +91 87663 07629</span>
-            <a href="https://www.linkedin.com/in/parth-rait-3a1989267" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            <a href="https://www.kaggle.com/parthrait" target="_blank"><i class="fab fa-kaggle"></i> Kaggle</a>
-            <a href="https://github.com/Parth-rait" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-          </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-flex">
+            <div class="logo">PARTH RAIT</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact" class="btn-nav">Contact</a></li>
+            </ul>
         </div>
+    </nav>
 
-        <div class="hero-photo">
-          <div class="hero-photo-inner">
-            <!-- Ensure you have a photo named profile.jpg in an assets folder -->
-            <img src="assets/profile.jpg" alt="Photo of Parth Rait" onerror="this.style.display='none'"/> 
-          </div>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <div class="badge">Economics • Data Science • Policy</div>
+                <h1>Analysing the <span class="crimson">Economy</span> through <span class="crimson">Algorithms</span>.</h1>
+                <p class="hero-sub">
+                    I am an Economics graduate from <strong>TISS</strong> and an <strong>IIT Guwahati</strong> certified Data Scientist. 
+                    I bridge the gap between rural fieldwork and machine learning, transforming raw survey data into actionable policy insights.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Research</a>
+                    <a href="assets/docs/CV_Parth_Rait.pdf" target="_blank" class="btn btn-outline">Download CV</a>
+                </div>
+                
+                <div class="social-proof">
+                    <a href="https://www.kaggle.com/parthrait" target="_blank"><i class="fab fa-kaggle"></i></a>
+                    <a href="https://github.com/Parth-rait" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/parth-rait-3a1989267" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+            <!-- Stats Cards (As requested) -->
+            <div class="hero-stats">
+                <div class="stat-box">
+                    <div class="stat-num">6</div>
+                    <div class="stat-label">Kaggle Medals</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-num">Top 3%</div>
+                    <div class="stat-label">Global Rank</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-num">8+</div>
+                    <div class="stat-label">Major Projects</div>
+                </div>
+            </div>
         </div>
-      </div>
-    </section>
+    </header>
 
-    <!-- ABOUT SECTION -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="about-grid">
+    <!-- About Section -->
+    <section id="about" class="section bg-white">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <p>
-                  I am a researcher and data scientist with a unique dual background. With a strong foundation in <strong>Economic Theory from TISS</strong> and technical expertise in <strong>AI/ML from IIT Guwahati</strong>, I aim to solve developmental challenges using rigorous data analysis.
+                    My journey sits at the intersection of <strong>Economics</strong> and <strong>Technology</strong>. 
+                    With a strong foundation in economic theory from <strong>Tata Institute of Social Sciences (TISS)</strong> 
+                    and technical expertise in <strong>AI/ML</strong> from <strong>IIT Guwahati</strong>, I aim to solve developmental challenges using data.
                 </p>
                 <p>
-                  My work is grounded in primary data collection. I have personally surveyed over <strong>1,000 households</strong> across rural India, capturing the nuances of agricultural markets and financial inclusion. I then leverage Python (Pandas, Scikit-Learn) to translate these raw narratives into actionable policy insights.
+                    I have extensive experience in primary data collection, having surveyed over <strong>1,000 households</strong> 
+                    across rural India. I leverage tools like <strong>Python (Pandas, Scikit-Learn)</strong> to analyze this data, 
+                    uncovering trends in agricultural markets, financial inclusion, and urban migration.
                 </p>
-            </div>
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-number">3rd</div>
-                    <div class="stat-label">Rank in Dept (TISS)</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">Top 3%</div>
-                    <div class="stat-label">Global Kaggle Rank</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">180+</div>
-                    <div class="stat-label">Interviews Conducted</div>
+                
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="fas fa-check"></i> Python & Data Analysis</div>
+                    <div class="skill-item"><i class="fas fa-check"></i> Machine Learning & AI</div>
+                    <div class="skill-item"><i class="fas fa-check"></i> Qualitative Field Research</div>
+                    <div class="skill-item"><i class="fas fa-check"></i> Econometrics</div>
+                    <div class="skill-item"><i class="fas fa-check"></i> C++ & Computational Thinking</div>
+                    <div class="skill-item"><i class="fas fa-check"></i> Policy Analysis</div>
                 </div>
             </div>
         </div>
-      </div>
     </section>
 
-    <!-- PROJECTS SECTION -->
-    <section id="projects">
-      <div class="container">
-        <h2 class="section-title">Featured Projects</h2>
-        <p class="section-subtitle">
-          A curated selection of my research studies, field reports, and technical implementations.
-        </p>
-
-        <!-- Category: Fieldwork & Economics -->
-        <h3 class="subsection-heading"><i class="fas fa-seedling"></i> Rural Economics & Fieldwork</h3>
-        <div class="cards-grid">
-          
-          <!-- Project 1 -->
-          <article class="card">
-            <h3>Economics of Rural India</h3>
-            <div class="card-meta">TISS Research | Wanegaon Village Study</div>
-            <p>
-              A comprehensive economic structure analysis of a village. Examined consumer/producer preferences under budget constraints and analyzed the failure of Minimum Support Price (MSP) policies in rural markets.
-            </p>
-            <div class="card-tags">
-              <span>Fieldwork</span><span>Policy Analysis</span><span>MSP</span>
-            </div>
-            <div class="card-links">
-              <a href="https://parth-rait.github.io/Economics-Of-Rural-India-/" target="_blank">🌐 View Website</a>
-              <a href="assets/docs/Economics_of_Rural_India.pdf" target="_blank">📄 PDF Report</a>
-            </div>
-          </article>
-
-          <!-- Project 2 -->
-          <article class="card">
-            <h3>Urban Idea of Working</h3>
-            <div class="card-meta">Field Study | Migration & Labor</div>
-            <p>
-              A comparative study on labor markets, analyzing the "Urban" aspiration in rural youth versus the reality of gig-economy work in metros like Delhi. Explored migration drivers and socio-economic mobility.
-            </p>
-            <div class="card-tags">
-              <span>Urban Sociology</span><span>Migration</span><span>Labor</span>
-            </div>
-            <div class="card-links">
-              <a href="https://parth-rait.github.io/urban-idea-of-working-/" target="_blank">🌐 View Website</a>
-              <a href="assets/docs/Urban_Idea_of_Working.pdf" target="_blank">📄 PDF Report</a>
-            </div>
-          </article>
-
-           <!-- Project 3 -->
-           <article class="card">
-            <h3>Rural Finance & Banking</h3>
-            <div class="card-meta">Psychometric Analysis | Financial Inclusion</div>
-            <p>
-              Investigated the gap between bank account ownership and active usage. Used psychometric surveys to understand trust levels, risk appetite, and the prevalence of informal credit in rural Maharashtra.
-            </p>
-            <div class="card-tags">
-              <span>Financial Inclusion</span><span>Behavioral Econ</span>
-            </div>
-            <div class="card-links">
-              <a href="https://parth-rait.github.io/Banking-and-Finance-A-Psychometric-Analysis-of-Banking-in-India/" target="_blank">🌐 View Website</a>
-              <a href="assets/docs/Rural_Finance_Study.pdf" target="_blank">📄 PDF Report</a>
-            </div>
-          </article>
-
-          <!-- Project 4 -->
-           <article class="card">
-            <h3>Indian Urban Transport</h3>
-            <div class="card-meta">Infrastructure Analysis</div>
-            <p>
-              An analysis of urban mobility challenges in Indian metropolises, examining the efficiency of public transport networks and last-mile connectivity issues.
-            </p>
-            <div class="card-tags">
-              <span>Infrastructure</span><span>Transport Policy</span>
-            </div>
-            <div class="card-links">
-              <a href="https://parth-rait.github.io/Indian-Urban-Transport/" target="_blank">🌐 View Website</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- KAGGLE SECTION -->
-    <section id="kaggle">
+    <!-- Projects Section (The Hub) -->
+    <section id="projects" class="section bg-light">
         <div class="container">
-            <h2 class="section-title">Data Science & Kaggle</h2>
-            <p class="section-subtitle">Applied machine learning solutions with top-tier global rankings.</p>
+            <h2 class="section-title">Research & Projects</h2>
+            <p class="section-desc">A collection of my field studies, economic analysis websites, and data science portfolios.</p>
 
-            <div class="kaggle-feature-card">
-                <div class="k-content">
-                    <h3><i class="fab fa-kaggle"></i> Kaggle Notebooks Expert</h3>
-                    <div class="k-stats">
-                        <div class="k-stat">
-                            <span class="val">Top 3%</span>
-                            <span class="lbl">Global Rank</span>
-                        </div>
-                        <div class="k-stat">
-                            <span class="val">6</span>
-                            <span class="lbl">Medals</span>
-                        </div>
-                        <div class="k-stat">
-                            <span class="val">100</span>
-                            <span class="lbl">Best Rank</span>
-                        </div>
+            <div class="project-grid">
+
+                <!-- Project 1: Rural Economics -->
+                <div class="project-card">
+                    <div class="card-top">
+                        <span class="tag">Research</span>
                     </div>
-                    <p>
-                        My portfolio includes high-ranking solutions for regression and classification tasks. 
-                        Notable works include <strong>Podcast Listening Time Prediction</strong> (Rank 100/3310), 
-                        <strong>Calorie Expenditure Estimation</strong> (Top 30%), and 
-                        <strong>Insurance Premium Prediction</strong> (Top 27%).
-                    </p>
-                    <div class="k-actions">
-                        <a href="https://parth-rait.github.io/Kaggle-Competitions-/" target="_blank" class="btn btn-primary">View Full Portfolio</a>
-                        <a href="https://www.kaggle.com/parthrait" target="_blank" class="btn btn-ghost">Kaggle Profile</a>
+                    <h3>Economics of Rural India</h3>
+                    <p>A deep dive into the economic structure of Wanegaon village. Analyzed consumer/producer preferences and the failure of MSP policies.</p>
+                    <div class="card-links">
+                        <a href="https://parth-rait.github.io/Economics-Of-Rural-India-/" target="_blank" class="link-btn">Visit Website &rarr;</a>
                     </div>
                 </div>
+
+                <!-- Project 2: Kaggle -->
+                <div class="project-card highlight">
+                    <div class="card-top">
+                        <span class="tag">Data Science</span>
+                    </div>
+                    <h3>Kaggle Grandmaster Portfolio</h3>
+                    <p>My algorithmic work. Includes "Podcast Listening Time" (Rank 100/3310) and "Insurance Regression" models.</p>
+                    <div class="card-metrics">
+                        <span><i class="fas fa-trophy"></i> 6 Medals</span>
+                        <span><i class="fas fa-chart-line"></i> Top 3%</span>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://parth-rait.github.io/Kaggle-Competitions-/" target="_blank" class="link-btn">View Portfolio &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Urban Transport -->
+                <div class="project-card">
+                    <div class="card-top">
+                        <span class="tag">Infrastructure</span>
+                    </div>
+                    <h3>Indian Urban Transport</h3>
+                    <p>Analysis of urban mobility challenges in Indian metropolises, focusing on metro efficiency and last-mile connectivity.</p>
+                    <div class="card-links">
+                        <a href="https://parth-rait.github.io/Indian-Urban-Transport/" target="_blank" class="link-btn">Visit Website &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 4: Urban Idea -->
+                <div class="project-card">
+                    <div class="card-top">
+                        <span class="tag">Sociology</span>
+                    </div>
+                    <h3>Urban Idea of Working</h3>
+                    <p>Comparative field study on labor markets. Analyzed the "Urban" aspiration in rural youth vs. the reality of gig work.</p>
+                    <div class="card-links">
+                        <a href="https://parth-rait.github.io/urban-idea-of-working-/" target="_blank" class="link-btn">Visit Website &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 5: Banking -->
+                <div class="project-card">
+                    <div class="card-top">
+                        <span class="tag">Finance</span>
+                    </div>
+                    <h3>Banking & Psychometrics</h3>
+                    <p>Investigated the gap between bank account ownership and active usage using psychometric surveys in rural India.</p>
+                    <div class="card-links">
+                        <a href="https://parth-rait.github.io/Banking-and-Finance-A-Psychometric-Analysis-of-Banking-in-India/" target="_blank" class="link-btn">Visit Website &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 6: Wanegaon -->
+                <div class="project-card">
+                    <div class="card-top">
+                        <span class="tag">Ethnography</span>
+                    </div>
+                    <h3>Wanegaon: The Story</h3>
+                    <p>Captured socio-economic transformations and social stratification within rural communities through field experiments.</p>
+                    <div class="card-links">
+                        <a href="https://www.researchgate.net/publication/389514813_Wanegaon_-_The_Story_of_every_village" target="_blank" class="link-btn">Read Paper &rarr;</a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- EXPERIENCE SECTION -->
-    <section id="experience">
-      <div class="container">
-        <h2 class="section-title">Experience</h2>
-        <div class="timeline">
-            
-            <div class="timeline-item">
-                <div class="timeline-icon"><i class="fas fa-university"></i></div>
-                <div class="timeline-content">
-                    <h3>Career Guidance Cell</h3>
-                    <span class="company">Tata Institute of Social Sciences | Mar 2024 - Present</span>
-                    <p>
-                        Finance Head & Founding Member. Managed ₹2 lakh+ annual fund. Organized career fairs and coordinated skill-building workshops for 100+ participants to improve internship rates.
-                    </p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-icon"><i class="fas fa-chart-pie"></i></div>
-                <div class="timeline-content">
-                    <h3>Social Science Research Trainee</h3>
-                    <div class="company">Tata Institute of Social Sciences | Dec 2024 - Feb 2025</div>
-                    <p>
-                        Analyzed quantitative survey data using Python (Pandas/Numpy) for regional social welfare initiatives. Facilitated Focus Group Discussions (FGDs) with 180+ participants.
-                    </p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-icon"><i class="fab fa-microsoft"></i></div>
-                <div class="timeline-content">
-                    <h3>ML & NLP Research Intern</h3>
-                    <div class="company">Edunet Foundation (Microsoft) | April - May 2025</div>
-                    <p>
-                        Built a WhatsApp sentiment analysis pipeline. Benchmarked 4 ML models (Logistic Regression, SVM, RF) achieving ~82% accuracy. Applied K-Means clustering for ad-targeting strategy.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- EDUCATION SECTION -->
-    <section id="education">
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-white">
         <div class="container">
-            <h2 class="section-title">Education & Certifications</h2>
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                
+                <!-- Role 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">March 2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Career Guidance Cell</h3>
+                        <h4>Tata Institute of Social Sciences (TISS)</h4>
+                        <ul>
+                            <li>Finance Head & Founding Member. Managed ₹2 lakh+ annual student-fund.</li>
+                            <li>Organized careers fairs and employer presentations, connecting clients with experts.</li>
+                            <li>Coordinated personalized career workshops for 100+ participants.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Role 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Dec 2024 - Feb 2025</div>
+                    <div class="timeline-content">
+                        <h3>Social Science Research Trainee</h3>
+                        <h4>Tata Institute of Social Sciences</h4>
+                        <ul>
+                            <li>Analyzed qualitative and quantitative research data using Pandas and Numpy.</li>
+                            <li>Facilitated focus group discussions with over 180 participants.</li>
+                            <li>Contributed to policy recommendations for regional social welfare.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Role 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">April - May 2025</div>
+                    <div class="timeline-content">
+                        <h3>ML & NLP Research Intern</h3>
+                        <h4>Edunet Foundation (Microsoft)</h4>
+                        <ul>
+                            <li>Built a WhatsApp sentiment-analysis pipeline in Python.</li>
+                            <li>Benchmarked 4 ML classifiers achieving ≈82% accuracy.</li>
+                            <li>Applied K-Means clustering to reveal latent conversation themes.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Education & Accreditations</h2>
             <div class="edu-grid">
                 
                 <!-- Degree -->
                 <div class="edu-card">
-                    <div class="edu-logo"><i class="fas fa-graduation-cap"></i></div>
-                    <div>
+                    <div class="edu-icon">
+                        <!-- Add logo here: <img src="assets/logos/tiss.png"> -->
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="edu-info">
                         <h3>B.A. in Economics</h3>
-                        <p class="inst">Tata Institute of Social Sciences (TISS)</p>
-                        <p class="meta">2023 - 2026 • Minor in Sociology • CGPA: 7.8 (Rank 3)</p>
+                        <p class="inst">Tata Institute of Social Sciences</p>
+                        <p class="meta">2023 - 2026 | Minor in Sociology | <strong>CGPA: 7.8</strong></p>
                     </div>
                 </div>
 
                 <!-- Certification -->
                 <div class="edu-card">
-                    <div class="edu-logo"><i class="fas fa-certificate"></i></div>
-                    <div>
-                        <h3>Professional Cert. in Data Science & AI</h3>
+                    <div class="edu-icon">
+                         <!-- Add logo here: <img src="assets/logos/iitg.png"> -->
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="edu-info">
+                        <h3>Professional Cert. in AI & ML</h3>
                         <p class="inst">IIT Guwahati</p>
-                        <p class="meta">2023 - 2024 • Minor in Mathematics • CGPA: 7.1</p>
+                        <p class="meta">2024 | Minor in Mathematics | <strong>CGPA: 7.1</strong></p>
                     </div>
                 </div>
 
                 <!-- Certification -->
                 <div class="edu-card">
-                    <div class="edu-logo"><i class="fab fa-microsoft"></i></div>
-                    <div>
-                        <h3>Foundations of AI Internship</h3>
+                    <div class="edu-icon">
+                         <!-- Add logo here: <img src="assets/logos/microsoft.png"> -->
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <div class="edu-info">
+                        <h3>Foundations of AI</h3>
                         <p class="inst">Microsoft & Edunet Foundation</p>
-                        <p class="meta">April 2025 • AICTE Approved</p>
-                        <a href="assets/docs/certificate.pdf" target="_blank" class="small-link">View Certificate</a>
+                        <p class="meta">April 2025 | AICTE Approved Internship</p>
+                        <a href="assets/docs/certificate.pdf" target="_blank" class="cert-link">View Certificate</a>
                     </div>
                 </div>
 
-                 <!-- Certification -->
-                 <div class="edu-card">
-                    <div class="edu-logo"><i class="fas fa-microchip"></i></div>
-                    <div>
-                        <h3>Quantum Computing Course</h3>
+                <!-- Certification -->
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <div class="edu-info">
+                        <h3>Quantum Computing</h3>
                         <p class="inst">C-DAC & IIT Roorkee</p>
-                        <p class="meta">May 2025 • Ministry of Electronics & IT</p>
+                        <p class="meta">May 2025 | Ministry of Electronics & IT</p>
                     </div>
                 </div>
 
@@ -316,25 +296,23 @@
         </div>
     </section>
 
-    <!-- CONTACT FOOTER -->
+    <!-- Footer -->
     <footer id="contact">
-        <div class="container footer-content">
-            <div>
-                <h2>Let's Connect</h2>
-                <p>Open to opportunities in Data Science, Quantitative Analysis, and Policy Research.</p>
-                <div class="footer-links">
-                    <a href="mailto:parthrait2006@gmail.com">parthrait2006@gmail.com</a>
-                    <span>+91 87663 07629</span>
-                </div>
+        <div class="container footer-container">
+            <div class="footer-left">
+                <h2>Contact</h2>
+                <p>Open for research collaborations and data science roles.</p>
+                <a href="mailto:parthrait2006@gmail.com" class="email">parthrait2006@gmail.com</a>
+                <p class="phone">+91 87663 07629</p>
             </div>
-            <div class="social-big">
+            <div class="footer-right">
                 <a href="https://github.com/Parth-rait" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/parth-rait-3a1989267" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="https://www.kaggle.com/parthrait" target="_blank"><i class="fab fa-kaggle"></i></a>
             </div>
         </div>
         <div class="copyright">
-            &copy; 2025 Parth Rait. Built with code & context.
+            © 2025 Parth Rait.
         </div>
     </footer>
 
